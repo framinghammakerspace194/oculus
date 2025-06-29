@@ -1,8 +1,10 @@
-//file: esp32_PS4_EyeController.ino
+//file: oculus.ino (new name chosen for github)
+//file: esp32_PS4_EyeController.ino (old file name)
 
 
 // Note: PS4 pair instructions: While pressing and holding the SHARE button, 
 //   press and hold the PS Button until the light bar flashes.
+// Note: Save yourself some time: board manager select esp32_bluepad32; ESP32-WROOM-DA Module
 
 // 20250515 bav Initially pulled from: menu File->Examples->Bluepad32_ESP32->Controller.
 //              Reference: https://bluepad32.readthedocs.io/en/latest/
@@ -28,6 +30,8 @@
 //              a hack.
 // 20250626 bav Blink: BUTTON_THUMB_R | BUTTON_SHOULDER_R. Can now blink with the shoulder right button, as per David's request
 //              moveScripts() enabled. Not tested yet
+// 20250629 bav Tested and delivered for FireFly. Also entered into github https://github.com/framinghammakerspace194/oculus
+//
 
 
 #include <Bluepad32.h>
